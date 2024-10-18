@@ -1,3 +1,5 @@
+import re
+
 def vogais_(string):
     total = re.findall('[aeiou]', string)
     return len(total)
