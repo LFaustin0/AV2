@@ -1,8 +1,8 @@
-import contagem
+import re
 
 def palavras (string):
     
-    total = conta.findall('[ ]', string)
+    total = re.findall('[ ]', string)
 
     print(f"Total de palavras: {len(total) + 1}")
 
